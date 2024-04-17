@@ -1,4 +1,4 @@
-# Capstone_Project_Playwright
+# Automation_Challenge_Playwright
 
 
 WIP
