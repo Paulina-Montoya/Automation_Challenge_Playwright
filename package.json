@@ -1,9 +1,15 @@
 {
-  "name": "capstone_project_playwright_paulina_montoya",
+  "name": "automation_challenge_playwright_paulina_montoya",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "run-test-headed": "npx playwright test --headed",
+    "run-test-headless":"npx playwright test",
+    "run-test-report":"npx playwright show-report",
+    "run-test-ui":"npx playwright test --ui",
+    "run-test-todo": "npx playwright test demo-todo-app.spec.js"
+  },
   "keywords": [],
   "author": "Paulina Montoya",
   "license": "ISC",
