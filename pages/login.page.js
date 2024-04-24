@@ -14,6 +14,7 @@ exports.LoginPage = class LoginPage {
     }
 
     async login(username, password){
+        await this.page.goto('https://www.saucedemo.com/')
         await this.username_field.fill(username);
         await this.password_field.fill(password);
         await this.login_button.click()
