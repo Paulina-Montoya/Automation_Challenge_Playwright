@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "run-test-headed": "npx playwright test --headed",
-    "run-test-headless":"npx playwright test",
-    "run-test-report":"npx playwright show-report",
-    "run-test-ui":"npx playwright test --ui",
+    "run-test-headless": "npx playwright test",
+    "run-test-smoke": "npx playwright test --grep @smoke",
+    "run-test-report": "npx playwright show-report",
+    "run-test-ui": "npx playwright test --ui",
     "run-test-todo": "npx playwright test demo-todo-app.spec.js"
   },
   "keywords": [],

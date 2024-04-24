@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test'
 import { LoginPage } from '../pages/login.page.js'
 import { ProductsPage } from '../pages/products.page.js'
 
-
 test('Login with a Valid User', async ({ page }) => {
     const logIn = new LoginPage(page)
     const product = new ProductsPage(page)
