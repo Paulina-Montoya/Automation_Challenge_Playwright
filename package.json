@@ -15,7 +15,7 @@
   "author": "Paulina Montoya",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.43.1",
-    "@types/node": "^20.12.7"
+    "@playwright/test": "1.43.1",
+    "@types/node": "20.12.7"
   }
 }

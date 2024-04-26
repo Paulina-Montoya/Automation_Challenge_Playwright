@@ -1,0 +1,8 @@
+{
+    "LOGIN":{
+        "SUCCESS_USER": "standard_user",
+        "SUCCESS_PASSWORD": "secret_sauce",
+        "WRONG_USER": "wrong_user",
+        "WRONG_PASSWORD": "wrong_secret"
+    }
+}
